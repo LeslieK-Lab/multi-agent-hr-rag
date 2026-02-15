@@ -26,7 +26,7 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
 
 ## Quickstart
 1. **Download Sample Data**: Get the [Policy Guides ZIP](https://github.com/LeslieK-Lab/multi-agent-hr-rag/releases/latest) (or your Drive link). Unzip to Google Drive (e.g., `/MyDrive/module5assignment/`).
-2. **Open Notebook**: [![Colab](https://colab.research.google.com/static/image/colab_logo_icon.svg)] [Agentic_System_Multi_Agentic.ipynb](Agentic_System_Multi_Agentic.ipynb)
+2. **Open Notebook**: [Agentic_System_Multi_Agentic.ipynb](Agentic_System_Multi_Agentic.ipynb)
 3. **Mount Drive & Set Path**:
    ```python
    SOURCE_DATA_DIR = "/content/drive/MyDrive/module5assignment"
