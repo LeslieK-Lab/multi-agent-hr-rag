@@ -22,7 +22,7 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
 - GPU runtime in Colab (Runtime > Change runtime type > T4 GPU).
 
 ## Quickstart
-1. **Download Sample Data**: Get the [Policy Guides ZIP](https://drive.google.com/file/d/1I1eWDECe0pUKIdgdiK7_dGbz71jBdehJ/view?usp=sharing) (or your Drive link). Unzip to Google Drive (e.g., `/MyDrive/sampledata/`).
+1. **Download Sample Data**: Get the [Policy Guides ZIP](https://drive.google.com/file/d/1I1eWDECe0pUKIdgdiK7_dGbz71jBdehJ/view?usp=sharing) (~29 MB). Unzip to Google Drive (e.g., `/MyDrive/sampledata/`).
 2. **Open Notebook in Colab**:
    - Download `Agentic_System_Multi_Agentic.ipynb` from this repo.
    - Go to https://colab.research.google.com → **File → Upload notebook**.
