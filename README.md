@@ -62,6 +62,8 @@ Multi-agent RAG architecture with:
 - Specialist RAG agents over a ChromaDB vector store
 - Web search tool for external queries
 
-<!-- Option 2: or include a diagram image / Mermaid code if you have it -->
-![Workflow](workflow.png)
+The router sends questions to the leave, pay, travel or web search agents, and all paths return a single answer.
+
+![Workflow diagram](docs/Workflow-Diagram.jpg)
+
 
