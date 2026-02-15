@@ -42,7 +42,6 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
    # → should route to the Leave specialist.
 
 ## Troubleshooting
-### Troubleshooting
 - **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
 - **API errors**: Confirm secrets are set and your keys are active/not rate-limited.
 - **GitHub preview error?** The notebook may show a widget metadata error when viewed on GitHub. This doesn't affect functionality—simply download and open in Colab as instructed.
