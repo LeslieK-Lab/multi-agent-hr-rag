@@ -37,3 +37,30 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
    - HF_TOKEN: your-token
 5. Run All Cells: Installs dependencies, ingests PDFs (~7775 docs), builds agents, launches Gradio.
 6. Test: Ask How many days of annual leave am I entitled to? → should route to the Leave specialist.
+
+
+```markdown
+### Troubleshooting
+- **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
+- **API errors**: Confirm secrets are set and your keys are active/not rate-limited.
+- **Need help with keys?** See YouTube guides for [Groq API setup](https://www.youtube.com/results?search_query=groq+api+key+setup) and [Colab secrets](https://www.youtube.com/results?search_query=colab+secrets).
+
+## Attribution & Data Source
+This project uses sample policy PDFs from
+[Denbighshire County Council – Jobs and Employees Policies](https://www.denbighshire.gov.uk/en/your-council/strategies-plans-and-policies/policies/jobs-and-employees/jobs-and-employees.aspx)
+for **educational purposes only**.
+
+- **License**: Open Government Licence v3.0 (OGL).
+- **Attribution**: © Crown Copyright. Contains public sector information licensed under the OGL.
+- **Disclaimer**: This is a student project and is not affiliated with or endorsed by Denbighshire County Council.
+
+## Architecture
+<!-- Option 1: describe in text -->
+Multi-agent RAG architecture with:
+- Router agent (routes to leave / travel / pay / web search)
+- Specialist RAG agents over a ChromaDB vector store
+- Web search tool for external queries
+
+<!-- Option 2: or include a diagram image / Mermaid code if you have it -->
+![Workflow](workflow.png)
+
