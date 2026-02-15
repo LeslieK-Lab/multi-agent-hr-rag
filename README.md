@@ -38,7 +38,8 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
 5. Run All Cells: Installs dependencies, ingests PDFs (~7775 docs), builds agents, launches Gradio.
 6. Test Ask:
    ```markdown
-   How many days of annual leave am I entitled to? → should route to the Leave specialist.
+   How many days of annual leave am I entitled to?
+  # → should route to the Leave specialist.
 
 ### Troubleshooting
 - **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
