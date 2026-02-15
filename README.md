@@ -41,7 +41,7 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
    How many days of annual leave am I entitled to?
    # → should route to the Leave specialist.
 
-### Troubleshooting
+## Troubleshooting
 - **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
 - **API errors**: Confirm secrets are set and your keys are active/not rate-limited.
 - **Need help with keys?** See YouTube guides for [Groq API setup](https://www.youtube.com/results?search_query=groq+api+key+setup) and [Colab secrets](https://www.youtube.com/results?search_query=colab+secrets).
