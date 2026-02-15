@@ -68,9 +68,11 @@ The router sends questions to the leave, pay, travel or web search agents, and a
 
 ## Team
 
+- [Wilson](https://github.com/wilson4tan)
+- [Farida](https://github.com/Farida-AI-FutureProof)
+- [Bradley](https://github.com/bradleysoh)
+- [Taufiq](https://github.com/taufiqidris)
 - [Leslie K.](https://github.com/LeslieK-Lab)
-- Teammate 1
-- Teammate 2
 
 ## License
 
