@@ -64,6 +64,6 @@ Multi-agent RAG architecture with:
 
 The router sends questions to the leave, pay, travel or web search agents, and all paths return a single answer.
 
-![Workflow diagram](docs/Workflow-Diagram.jpg)
+![Workflow diagram](docs/Workflow-Diagram.png)
 
 
