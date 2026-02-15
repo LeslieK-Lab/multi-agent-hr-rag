@@ -66,5 +66,13 @@ The router sends questions to the leave, pay, travel or web search agents, and a
 
 ![Workflow diagram](docs/Workflow%20Diagram.png)
 
+## Team
 
+- [Leslie K.](https://github.com/LeslieK-Lab)
+- Teammate 1
+- Teammate 2
+
+## License
+
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
 
