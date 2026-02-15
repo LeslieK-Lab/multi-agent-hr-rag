@@ -42,9 +42,12 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
    # → should route to the Leave specialist.
 
 ## Troubleshooting
+### Troubleshooting
 - **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
 - **API errors**: Confirm secrets are set and your keys are active/not rate-limited.
+- **Dependency conflict warnings during install**: You may see pip warnings about `requests` or `opentelemetry` version mismatches with Google Colab. These are safe to ignore—the notebook will work correctly despite the warnings.
 - **Need help with keys?** See YouTube guides for [Groq API setup](https://www.youtube.com/results?search_query=groq+api+key+setup) and [Colab secrets](https://www.youtube.com/results?search_query=colab+secrets).
+- **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
 
 ## Attribution & Data Source
 This project uses sample policy PDFs from
