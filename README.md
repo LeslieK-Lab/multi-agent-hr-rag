@@ -22,14 +22,14 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
 - GPU runtime in Colab (Runtime > Change runtime type > T4 GPU).
 
 ## Quickstart
-1. **Download Sample Data**: Get the [Policy Guides ZIP](https://github.com/LeslieK-Lab/multi-agent-hr-rag/releases/latest) (or your Drive link). Unzip to Google Drive (e.g., `/MyDrive/module5assignment/`).
+1. **Download Sample Data**: Get the [Policy Guides ZIP](https://github.com/LeslieK-Lab/multi-agent-hr-rag/releases/latest) (or your Drive link). Unzip to Google Drive (e.g., `/MyDrive/sampledata/`).
 2. **Open Notebook in Colab**:
    - Download `Agentic_System_Multi_Agentic.ipynb` from this repo.
    - Go to https://colab.research.google.com → **File → Upload notebook**.
    - Select the downloaded `.ipynb` file and open it in your own Colab workspace.
 3. **Mount Drive & Set Path**:
    ```python
-   SOURCE_DATA_DIR = "/content/drive/MyDrive/module5assignment"
+   SOURCE_DATA_DIR = "/content/drive/MyDrive/sampledata"
    # Paste your "Copy path" here
 4. Add Secrets (Notebook sidebar → 🔑 Secrets):
    - GEMINI_API_KEY: your-key
