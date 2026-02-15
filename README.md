@@ -6,7 +6,7 @@ Multi-agent RAG system for HR queries: Routes employee questions on leave/pay/tr
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://python.org)
 [![LangChain](https://img.shields.io/badge/LangChain-black)](https://langchain.com)
 [![Groq](https://img.shields.io/badge/Groq-Fast-green)](https://groq.com)
-[![Colab](https://colab.research.google.com/static/image/colab_logo_icon.svg)](https://colab.research.google.com)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
 
 A multi-agent system built with LangGraph/LangChain that routes employee questions (e.g., leave, pay, travel) to specialist RAG agents using company policy PDFs. Handles internal policies via vector DB and web search for jobs/news. Demo UI with Gradio.
 
@@ -30,4 +30,4 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
 3. **Mount Drive & Set Path**:
    ```python
    SOURCE_DATA_DIR = "/content/drive/MyDrive/module5assignment"
-# Paste your "Copy path" here
+   # Paste your "Copy path" here
