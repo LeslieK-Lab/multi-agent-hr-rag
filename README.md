@@ -36,9 +36,10 @@ A multi-agent system built with LangGraph/LangChain that routes employee questio
    - GROQ_API_KEY: your-key
    - HF_TOKEN: your-token
 5. Run All Cells: Installs dependencies, ingests PDFs (~7775 docs), builds agents, launches Gradio.
-6. Test: Ask How many days of annual leave am I entitled to? → should route to the Leave specialist.
-
-
+6. Test:
+   ```python
+   Ask How many days of annual leave am I entitled to?
+   # → should route to the Leave specialist.
     ```markdown
 ### Troubleshooting
 - **No PDFs found**: Check that `SOURCE_DATA_DIR` exactly matches your Google Drive folder path.
