@@ -72,7 +72,7 @@ The router sends questions to the leave, pay, travel or web search agents, and a
 - [Farida](https://github.com/Farida-AI-FutureProof)
 - [Bradley](https://github.com/bradleysoh)
 - [Taufiq](https://github.com/taufiqidris)
-- [Leslie K.](https://github.com/LeslieK-Lab)
+- [Leslie K. aka me!😄](https://github.com/LeslieK-Lab)
 
 ## License
 
